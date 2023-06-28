@@ -19,6 +19,7 @@
         <webdrivermanager.version>4.2.0</webdrivermanager.version>
         <log4j.version>1.2.16</log4j.version>
         <reportng.version>1.1.4</reportng.version>
+<!--        <selenium-devtools>4.8.2</selenium-devtools>-->
 
         <!-- Default value -->
         <environment>dev</environment>
@@ -76,6 +77,12 @@
             <groupId>commons-logging</groupId>
             <artifactId>commons-logging</artifactId>
             <version>1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-devtools-v101</artifactId>
+            <version>4.3.0</version>
+            <scope>test</scope>
         </dependency>
 
     </dependencies>
